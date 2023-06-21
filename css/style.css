@@ -76,18 +76,6 @@ body {
     box-shadow: 0px 0px 10px #CECECE;
 }
 
-.footerNav{
-    background-color:#0B7189 ;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0px 16px 0px 16px;
-    height: 80px;
-    font-family: 'Helvetica', sans-serif;
-    color: white;
-}
-
 .heroImg{
     text-align:center;
     height: 550px;
@@ -104,11 +92,21 @@ p{
     margin: 50px;
     font-size: small;
 }
-
+.myskills{
+    text-align:center;
+    height: 550px;
+}
 .skillscards {
     display:flex;
 }
+.skillsimage{
+    display: flex;
+}
 
+.mywork{
+    text-align:center;
+    height: 550px;
+}
 .workcards {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -131,4 +129,14 @@ p{
     grid-area: three_workcard;
 }
 
-
+.footerNav{
+    background-color:#0B7189 ;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 16px 0px 16px;
+    height: 80px;
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+}
