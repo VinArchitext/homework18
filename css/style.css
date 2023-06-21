@@ -104,3 +104,31 @@ p{
     margin: 50px;
     font-size: small;
 }
+
+.skillscards {
+    display:flex;
+}
+
+.workcards {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    /*1fr divides into ratio */
+    grid-template-areas: 
+    "one_workcard two_workcard three_workcard"
+    ;
+}
+
+.one_workcard{
+    grid-area: one_workcard;
+}
+
+.two_workcard{
+    grid-area: two_workcard;
+}
+
+.three_workcard{
+    grid-area: three_workcard;
+}
+
+
