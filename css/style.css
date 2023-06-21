@@ -107,7 +107,7 @@ p{
     text-align:center;
     height: 550px;
 }
-@media only screen and (max-width: 600px){
+
 .workcards {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -116,7 +116,6 @@ p{
     grid-template-areas: 
     "one_workcard two_workcard three_workcard"
     ;
-}
 }
 
 .one_workcard{
